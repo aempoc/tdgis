@@ -34,9 +34,9 @@
                     jcr:title="Content Image"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
-                    disableLazyLoading="false"
                     allowUpload="false"
                     altValueFromDAM="true"
+                    disableLazyLoading="false"
                     displayPopupTitle="true"
                     isDecorative="false"
                     jpegQuality="{Long}85"
@@ -339,6 +339,57 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
             </page>
+            <structure jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_1624364652719
+                        jcr:lastModified="{Date}2021-06-22T14:24:42.792Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="tdgis-body-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:TD Global Investment Solutions - Container,group:TD Global Investment Solutions - Content,group:TD Global Investment Solutions - Form]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1624364652719>
+                    <policy_1105015937855500
+                        jcr:lastModified="{Date}2021-06-22T12:53:36.744Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="td-footer-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:TD Global Investment Solutions - Structure">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1105015937855500>
+                </responsivegrid>
+                <basePage jcr:primaryType="nt:unstructured"/>
+            </structure>
+            <content jcr:primaryType="nt:unstructured">
+                <text jcr:primaryType="nt:unstructured"/>
+                <title jcr:primaryType="nt:unstructured"/>
+            </content>
         </components>
     </tdgis>
+    <component-library jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <responsivegrid jcr:primaryType="nt:unstructured">
+                <policy_1624362800062
+                    jcr:lastModified="{Date}2021-06-22T12:52:15.400Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="tdgis-template-policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[group:TD Global Investment Solutions - Content,group:TD Global Investment Solutions - Form,group:TD Global Investment Solutions - Structure]">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1624362800062>
+                <policy_1102644369566900
+                    jcr:lastModified="{Date}2021-06-22T12:14:05.538Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="tdgis-body-policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[group:TD Global Investment Solutions - Content,group:TD Global Investment Solutions - Form]">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1102644369566900>
+            </responsivegrid>
+        </components>
+    </component-library>
 </jcr:root>

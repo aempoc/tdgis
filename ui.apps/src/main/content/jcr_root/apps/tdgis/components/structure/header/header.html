@@ -1,0 +1,26 @@
+<div class="logo-print visible-print" aria-hidden="true"><img src="/content/dam/system/img/td-logo.png" width="36" height="32" alt="TD Canada Trust"></div>
+<div class="td-header-nav-top-message">
+
+    <section class="td_rq_top-message" style="display: block;">
+        <script type="text/javascript">
+            var emsEndPoint = 'https://www.wcmcaas.td.com/api/ems-service/'; 
+            var emsLoB ='TDCT_HP';
+            var emsChannelId = '1';
+            var emsLang = 'EN';
+            var emsContextPath = '/ca/en/personal-banking';
+        </script>
+    </section>
+
+    <div class="logo-print visible-print" aria-hidden="true"><img src="/content/dam/system/img/td-logo.png" width="36" height="32" alt="TD Canada Trust"></div>
+    <div class="td_rq_header-nav td-header-nav"> 
+    	<!-- Desktop Header START -->
+        <div data-sly-resource="${@ path='headerdesktop', resourceType='/apps/personal-banking/components/structure/headerDesktop'}" data-sly-unwrap></div>
+		<!-- Desktop Header END -->
+        <!-- Mobile Header START -->
+        <div data-sly-resource="${@ path='headermobile', resourceType='/apps/personal-banking/components/structure/headerMobile'}" data-sly-unwrap></div>
+        <!-- Mobile Header END -->
+        <!-- Mobile Off-canvas Menu START -->
+        <div data-sly-resource="${@ path='headerMobileCanvas', resourceType='/apps/personal-banking/components/structure/headerMobileCanvas'}" data-sly-unwrap></div>
+        <!-- Mobile Off-canvas Menu END -->
+    </div>
+</div>

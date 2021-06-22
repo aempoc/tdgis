@@ -1,0 +1,9 @@
+<sly data-sly-use.multifieldAccordion="${'multifield.js' @ multifieldName='multifield'}"></sly>
+<sly data-sly-test.configured="${multifieldAccordion}"></sly>
+<div class="td-segments">
+    <ul data-sly-list="${multifieldAccordion}">
+        <li class="${item.properties.activeSite?'active':''}">
+            <a href="${item.properties.link}" >${item.properties.text @ context='html'}</a>
+        </li>
+    </ul>
+</div>

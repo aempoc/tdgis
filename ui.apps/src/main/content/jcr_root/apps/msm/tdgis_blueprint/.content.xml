@@ -3,9 +3,9 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:template="/libs/wcm/msm/templates/blueprint"
+        jcr:description="Creates blueprint config for TD Global Investment Solutions"
         jcr:primaryType="nt:unstructured"
         jcr:title="TD Global Investment Solutions Blueprint"
-        jcr:description="Creates blueprint config for TD Global Investment Solutions"
         sling:resourceType="wcm/msm/components/blueprint"
         sitePath="/content/tdgis/language-masters">
         <dialog/>
