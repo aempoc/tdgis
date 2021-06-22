@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/tdgis" mode="merge"/>
+    <filter root="/content/tdgis" mode="merge"/>
+    <filter root="/content/dam/tdgis" mode="merge"/>
+    <filter root="/content/experience-fragments/tdgis" mode="merge"/>
+</workspaceFilter>

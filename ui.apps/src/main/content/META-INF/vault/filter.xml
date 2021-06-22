@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/tdgis/clientlibs"/>
+    <filter root="/apps/tdgis/components"/>
+    <filter root="/apps/tdgis/i18n"/>
+    <filter root="/apps/msm/tdgis_blueprint" mode="merge"/>
+</workspaceFilter>
