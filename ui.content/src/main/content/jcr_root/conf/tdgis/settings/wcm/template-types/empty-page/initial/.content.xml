@@ -3,5 +3,5 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="personal-banking/components/structure/basePage"/>
+        sling:resourceType="tdgis/components/structure/basePage"/>
 </jcr:root>

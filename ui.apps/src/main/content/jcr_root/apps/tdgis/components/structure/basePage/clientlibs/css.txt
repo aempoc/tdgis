@@ -1,3 +1,4 @@
 #base=src
 default.css
+custom.css
 fonts/icons.css

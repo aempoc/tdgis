@@ -88,4 +88,6 @@
             jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
     <home/>
+    <contact-us/>
+    <article-list/>
 </jcr:root>

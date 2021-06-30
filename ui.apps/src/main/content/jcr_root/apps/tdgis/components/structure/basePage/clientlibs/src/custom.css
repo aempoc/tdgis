@@ -1,0 +1,258 @@
+
+.td-utility-toggle {
+    background-color: #1A5336;
+}
+.td-nav-primary .td-logo{
+    float: left;
+}
+.td-nav-primary .td-logo img {
+    width: 49px;
+    height: 70px;
+    float: left;
+    padding: 11px 0;
+}
+.td-nav-primary nav {
+    display: inline-block;
+    height: 100%;
+    float: left;
+}
+.td-logo span {
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+    color: #038203;
+    font-weight: 800;
+}
+.td-utility-toggle .td-dropdown>.td-dropdown-content-right {
+    display: none;
+}
+.td-utility-toggle .td-dropdown-country>.td-dropdown-content-right {
+    width: 237px;
+}
+.td-utility-toggle .td-dropdown-country>.td-dropdown-content-right>li {
+    margin-bottom: 7px
+}
+
+.td-utility-toggle .td-dropdown-country>.td-dropdown-content-right>li a {
+    padding: 11px 15px 11px 19px
+}
+
+.td-utility-toggle .td-dropdown-country>.td-dropdown-content-right .country-flag {
+    margin: -3px 17px 0 0;
+    width: 22px
+}
+
+.td-utility-toggle .td-dropdown-country>.td-dropdown-content-right .td-icon {
+    right: 12px
+}
+.td-utility-toggle .td-dropdown-active>.td-dropdown-content-right {
+    display: block;
+    position: absolute;
+    background: white;
+    z-index: 101;
+    top: 100%;
+    left: 0;
+    font-size: 1rem;
+    padding: 11px 0 20px 0;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2)
+}
+.td-utility-toggle .td-dropdown-active>.td-dropdown-content-right>li {
+    display: block;
+    text-align: left;
+    position: relative
+}
+
+.td-utility-toggle .td-dropdown-active>.td-dropdown-content-right>li>a {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    color: #1c1c1c
+}
+
+.td-utility-toggle .td-dropdown-active>.td-dropdown-content-right>li>a:hover,
+.td-utility-toggle .td-dropdown-active>.td-dropdown-content-right>li>a:focus {
+    background: #f3f3f8;
+    outline: dotted 1px #1c1c1c
+}
+
+.td-utility-toggle .td-dropdown-active>.td-dropdown-content-right>li.active>a {
+    font-family: "TD Graphik Medium"
+}
+
+.td-utility-toggle .td-dropdown-active>.td-dropdown-content-right>li:last-child {
+    margin-bottom: 0px
+}
+
+.td-utility-toggle .td-dropdown-active>.td-dropdown-content-right .td-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #008a00
+}
+
+
+
+/* Full screen Nav bar */
+.td-nav-primary .td-dropdown-active{
+    position: static;
+    top: 0px;
+    height: 100%;
+    padding: 0 15px;
+    background: transparent;
+    box-shadow: none;
+}
+.td-nav-primary .td-dropdown-active:before {
+    content: none;
+}
+.td-nav-primary .td-dropdown-content{
+    width: 100vw;
+    left: calc(1268px - 100vw);
+}
+/* On screens that are 1024px or less, set the background color to blue */
+@media screen and (max-width: 64em) {
+    .td-nav-primary .td-dropdown-content{
+        left:-15px;
+    }
+}
+.td-nav-primary .td-dropdown-active:after{
+    /* width:100vw;
+    height: 10px;
+    left: calc(1268px - 100vw); */
+    content: none;
+}
+.td-nav-primary .td-quick-access .login .td-dropdown-content{
+    width:215px;
+}
+.td-nav-primary .td-dropdown-active>.td-dropdown-content.with-padding{
+    padding: 0 75px 20px;
+}
+.td-nav-primary .td-dropdown-active>.td-dropdown-content.with-padding ul li.lvl-heading{
+    color: #8C8C8C;
+    font-weight: 800;
+    padding: 10px 30px;
+}
+.td-nav-primary .td-dropdown-active>.td-dropdown-content ul{
+    width: 250px;
+    border-right: 1px solid #f3f3f8;
+    float: left;
+}
+.second-lvl-menu{
+    display: none;
+}
+.second-lvl-menu li>a{
+    color: #038203!important;
+    font-weight: 200;
+}
+.second-lvl-menu li>a:hover{
+    color: #1c1c1c!important;
+    font-weight: 200;
+}
+/* .td-nav-primary .td-dropdown-content {
+    -webkit-box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.2)
+} */
+.td-nav-primary .td-dropdown-active{
+    background-color: #FFF;
+    z-index: 9999;
+}
+.td-nav-primary nav>ul>li>a, .td-nav-primary nav>ul>li.login>a {
+    position: relative;
+}
+.td-nav-primary .td-dropdown-active.login a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background: white;
+    border: none;
+    z-index: 99999;
+}
+.td-nav-primary .td-dropdown-active>a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -15px;
+    width: calc(100% + 30px);
+    height: 7px;
+    background: #038203;
+    border: none;
+    z-index: 99999;
+}
+.td-nav-primary .td-dropdown-content{
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.2)
+}
+.td-nav-primary .td-dropdown-content li.direct-lvl-menu>a{
+    background-color: transparent;
+}
+.td-nav-primary .td-dropdown-content li.direct-lvl-menu>a{
+    color: #00B624;
+    font-weight: 600;
+
+}
+.td-nav-primary .td-dropdown-content li.lvl-menu>a {
+    color: #038203;
+}
+.td-nav-primary .td-dropdown-content li.lvl-menu>a:hover, 
+.td-nav-primary .td-dropdown-content li.lvl-menu>a:focus{
+    position: relative;
+    color: #1c1c1c;
+}
+.td-nav-primary .td-dropdown-content li.lvl-menu>a:hover:after, 
+.td-nav-primary .td-dropdown-content li.lvl-menu>a:focus:after{
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-left: 15px solid #f3f3f8;
+    position: absolute;
+    left: 230px;
+    background-color: transparent;
+}
+hr{
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+.hover-class{
+    background-color: #f3f3f8;
+}
+
+.hide-menu {
+    display: none;
+}
+
+.submenu {
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+    padding: 10px 30px 12px 30px;
+    color: #1c1c1c;
+    font-family: "TD Graphik Medium";
+    outline-color: #1c1c1c;
+    display: inline-block;
+}
+
+.pad-right > div {
+    padding-right: 11rem;
+}
+
+.form-group {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.form-control {
+    font-size: 15px !important;
+}
+
+.custom-margin {
+    margin-right: 12.5rem;
+    float: right;
+}

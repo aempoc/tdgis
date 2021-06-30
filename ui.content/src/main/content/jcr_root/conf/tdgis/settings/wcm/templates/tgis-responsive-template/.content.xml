@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2021-06-28T10:29:46.443Z"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/tdgis/settings/wcm/template-types/empty-page"
+        jcr:description="Template for TGIS Template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="tgis-responsive-template"
+        status="enabled"/>
+</jcr:root>

@@ -14,7 +14,7 @@
 
 <sly data-sly-test.clientlibCategories="${currentStyle['clientlibs']}"
          data-sly-call="${clientlib.all @ categories = clientlibCategories}"></sly>
-<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.all @ categories='personal-banking.base'}" data-sly-unwrap/>
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.all @ categories='tdgis.base'}" data-sly-unwrap/>
 <script type="text/javascript">
 	var conTextPathVal ="/ca/en/about-td";
 	var infositeUrl = "https://www.tdcanadatrust.com/products-services/banking/getcookie.jsp";
@@ -27,10 +27,43 @@
 </head>
 <body class="td_rq_descriptor td-descriptor" ng-app="tdctRedesign" ng-controller="tdctRedesignController as a">
 <sly data-sly-include="/libs/wcm/core/components/init/init.jsp"/>
-
 <sly data-sly-use.templatedContainer="com.day.cq.wcm.foundation.TemplatedContainer"
      		data-sly-repeat.child="${templatedContainer.structureResources}"
      		data-sly-resource="${child.path @ resourceType=child.resourceType, decorationTagName='div'}"></sly>
-<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.all @ categories='clientlibs-body-js.site'}" data-sly-unwrap/>
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.all @ categories='tdgis-body-js.site'}" data-sly-unwrap/>
+
+
+
+<script>
+    var selectedClass='';
+    $(".lvl-menu").hover(function() {
+        var class_names = $(this).attr('class').split( ' ' );
+        $(".lvl-menu").removeClass('hover-class');
+        $(this).addClass('hover-class');
+        if(class_names[0]!=='second'){
+           $(".second-lvl-menu").hide();
+        }
+        $('#'+class_names[1]).show();
+    });
+
+    $("li").hover(function() {
+        var hasClass = $(this).hasClass('has-menu');
+        if (hasClass) {
+            var anchorCh = $(this)[0].children[0];
+            var divCh = $(this)[0].children[1];
+            var anchorId = $(anchorCh).attr('id');
+            if (anchorId === 'show-submenu') {
+                /* for 3rd level menus of multiple 2nd level links,
+                the parent li of the link must have class has-menu,
+                add aria-valuenow attribute to the link,
+                with value as id of the div below it with class hide-menu */
+                selectedClass = $(anchorCh).attr('aria-valuenow');
+                $(divCh).removeClass('hide-menu').addClass('submenu');
+            }
+        } else {
+            $('#' + selectedClass).removeClass('submenu').addClass('hide-menu');
+        }
+    });
+</script>
 </body>
 </html>

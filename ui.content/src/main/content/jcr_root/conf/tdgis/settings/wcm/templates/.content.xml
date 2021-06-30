@@ -5,5 +5,5 @@
     <page-content/>
     <xf-web-variation/>
     <rep:policy/>
-    <tdgis-template/>
+    <tgis-responsive-template/>
 </jcr:root>

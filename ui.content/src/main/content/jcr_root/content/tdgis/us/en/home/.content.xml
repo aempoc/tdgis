@@ -2,78 +2,103 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-06-22T14:28:54.804Z"
+        cq:lastModified="{Date}2021-06-29T08:54:09.188Z"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/tdgis/settings/wcm/templates/tdgis-template"
+        cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home"
-        sling:resourceType="personal-banking/components/structure/basePage"
-        navTitle="Home"
-        pageTitle="Home">
-        <root
-            jcr:lastModified="{Date}2021-06-22T12:32:04.706Z"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="component-library/components/responsivegrid">
+        sling:resourceType="tdgis/components/structure/basePage"
+        navTitle="TDGIS"
+        pageTitle="TD Global Investment Solutions - Home">
+        <root jcr:primaryType="nt:unstructured">
             <responsivegrid
-                jcr:created="{Date}2021-06-22T12:33:15.313Z"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-06-22T12:35:00.766Z"
-                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="tdgis/components/structure/responsivegrid">
-                <title
-                    jcr:created="{Date}2021-06-22T13:29:03.433Z"
+                <singleproductcontain
+                    jcr:created="{Date}2021-06-28T11:46:23.690Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-06-22T13:29:03.433Z"
+                    jcr:lastModified="{Date}2021-06-28T12:19:06.915Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="tdgis/components/content/title"/>
-                <servicedesciptioncon
-                    jcr:created="{Date}2021-06-22T14:25:03.330Z"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-06-22T14:25:51.591Z"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="tdgis/components/containers/servicedesciptioncontainer"
-                    column="2">
-                    <par_0
+                    sling:resourceType="tdgis/components/containers/singleproductcontainer"
+                    imageAlignment="left">
+                    <par_header
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="component-library/components/layouts/parsys">
                         <title
-                            jcr:created="{Date}2021-06-22T14:26:10.994Z"
+                            jcr:created="{Date}2021-06-28T12:13:02.155Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-06-22T14:28:21.750Z"
+                            jcr:lastModified="{Date}2021-06-28T12:14:16.069Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            jcr:title="Services Desciption 2 Column"
-                            sling:resourceType="tdgis/components/content/title"/>
-                    </par_0>
-                    <par_1
+                            jcr:title="&lt;p>Coverage for after the accident&lt;/p>&#xd;&#xa;"
+                            sling:resourceType="tdgis/components/content/title"
+                            alignment="text-center"
+                            textIsRich="true"
+                            type="h1"
+                            window="_self"/>
+                    </par_header>
+                    <par_Header
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="component-library/components/layouts/parsys">
-                        <text
-                            jcr:created="{Date}2021-06-22T14:28:40.981Z"
+                        <title
+                            jcr:created="{Date}2021-06-28T12:19:21.603Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-06-22T14:28:48.191Z"
+                            jcr:lastModified="{Date}2021-06-28T13:12:00.978Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="tdgis/components/content/text"
-                            text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/p>&#xa;"
-                            textIsRich="true"/>
-                    </par_1>
-                    <par_01
+                            jcr:title="Coverage for after the accident"
+                            sling:resourceType="tdgis/components/content/title"/>
+                    </par_Header>
+                    <par_Image
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="component-library/components/layouts/parsys">
                         <image
-                            jcr:created="{Date}2021-06-22T14:28:54.800Z"
+                            jcr:created="{Date}2021-06-28T12:19:28.258Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-06-22T14:28:54.800Z"
+                            jcr:lastModified="{Date}2021-06-28T12:20:17.596Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="tdgis/components/content/image"/>
-                    </par_01>
-                </servicedesciptioncon>
+                            sling:resourceType="tdgis/components/content/image"
+                            displayPopupTitle="true"
+                            fileName="video.jpg"
+                            isDecorative="true">
+                            <file/>
+                        </image>
+                    </par_Image>
+                    <par_TopDesc
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="component-library/components/layouts/parsys">
+                        <text
+                            jcr:created="{Date}2021-06-28T12:25:38.449Z"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-06-28T12:45:50.562Z"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="tdgis/components/content/text"
+                            text="&lt;p class=&quot;subhead&quot;>Why do I need Critical Accident Insurance?&lt;/p>&#xd;&#xa;&lt;p class=&quot;td-rte-margin-top-none td-rte-margin-bottom-medium&quot;>When you survive a critical accident, you could face a life with less income — or none at all — due to loss of work.&lt;/p>&#xd;&#xa;&lt;p class=&quot;subhead&quot;>What do I get with this coverage?&lt;/p>&#xd;&#xa;&lt;ul class=&quot;td-rte-margin-top-none&quot;>&#xd;&#xa;&lt;li>&lt;span>The plan can pay an amount up to $150,000&lt;/span>&lt;/li>&#xd;&#xa;&lt;li>&lt;span>Use your benefits any way you choose&lt;/span>&lt;/li>&#xd;&#xa;&lt;li>&lt;span>Up to $200 a day, for up to 365 days (while in the hospital)&lt;/span>&lt;/li>&#xd;&#xa;&lt;li>&lt;span>No medical exam require.&lt;/span>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                            textIsRich="true"/>
+                    </par_TopDesc>
+                    <par_Button
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="component-library/components/layouts/parsys">
+                        <button
+                            jcr:created="{Date}2021-06-28T12:28:46.044Z"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-06-28T12:29:12.307Z"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Enroll today"
+                            sling:resourceType="tdgis/components/content/button"
+                            actionType="buttonType"
+                            buttonSize="td-button-large"
+                            buttonType="td-button td-button-block td-cta-button td-cta-action td-button-secondary"
+                            window="_self"/>
+                    </par_Button>
+                    <par_BottomDesc
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="component-library/components/layouts/parsys"/>
+                </singleproductcontain>
             </responsivegrid>
         </root>
     </jcr:content>
