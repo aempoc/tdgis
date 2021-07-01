@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d9c84be9-cf9c-4011-ac0d-be41287fdf7e">
+    <jcr:content
+        cq:name="content-fragment-article1"
+        cq:parentPath="/content/dam/tdgis/content-fragment/en"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-06-30T13:51:10.194Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="content fragment article1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-06-30T13:51:10.194Z">
+        <data
+            cq:model="/conf/tdgis/settings/dam/cfm/models/tdis-content-fragment-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;p>bnvmvnvnm&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2021-06-30T13:51:09.797Z"
+                dropdown="option1"
+                dropdown_x0040_LastModified="{Date}2021-06-30T13:51:09.797Z"
+                number="{Long}4"
+                number_x0040_LastModified="{Date}2021-06-30T13:51:09.797Z"
+                publishdate="{Date}2021-06-30T19:13:00.000+05:30"
+                publishdate_x0040_LastModified="{Date}2021-06-30T13:51:09.797Z"
+                title="This is Heading"
+                title_x0040_LastModified="{Date}2021-06-30T13:51:09.796Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -52,6 +52,9 @@
             var anchorCh = $(this)[0].children[0];
             var divCh = $(this)[0].children[1];
             var anchorId = $(anchorCh).attr('id');
+            var aTop = document.getElementById('show-submenu');
+            var linkTopPos = aTop.getBoundingClientRect().top;
+            console.log(linkTopPos);
             if (anchorId === 'show-submenu') {
                 /* for 3rd level menus of multiple 2nd level links,
                 the parent li of the link must have class has-menu,
@@ -59,8 +62,13 @@
                 with value as id of the div below it with class hide-menu */
                 selectedClass = $(anchorCh).attr('aria-valuenow');
                 $(divCh).removeClass('hide-menu').addClass('submenu');
+                $(divCh).css('background', '#f3f3f8');
+                if (linkTopPos >= 200) {
+                    $(divCh).css('margin-top', '-190px');
+                }
             }
         } else {
+            console.log(selectedClass);
             $('#' + selectedClass).removeClass('submenu').addClass('hide-menu');
         }
     });

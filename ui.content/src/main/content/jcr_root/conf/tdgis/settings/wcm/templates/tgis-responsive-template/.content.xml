@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2021-06-28T10:29:46.443Z"
+        cq:lastModified="{Date}2021-07-01T07:44:25.719Z"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/tdgis/settings/wcm/template-types/empty-page"
         jcr:description="Template for TGIS Template"

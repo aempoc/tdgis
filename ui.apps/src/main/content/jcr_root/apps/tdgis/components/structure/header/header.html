@@ -24,11 +24,11 @@
                     <div class="td-other-toggles">
                         <ul>
                             <li class="td-dropdown td-dropdown-country td-dropdown-no-hover">
-                                <a href="javascript:void(0)" aria-haspopup="true" aria-expanded="false" id="td-desktop-nav-dropdown-link-1"><span class="td-forscreenreader">Select options</span>Personal<span class="td-icon expand" aria-hidden="true"></span><span class="td-icon collapse" aria-hidden="true"></span></a>
+                                <a href="javascript:void(0)" aria-haspopup="true" aria-expanded="false" id="td-desktop-nav-dropdown-link-1"><span class="td-forscreenreader">Select options</span>${ 'insti' @  i18n }<span class="td-icon expand" aria-hidden="true"></span><span class="td-icon collapse" aria-hidden="true"></span></a>
                                 <ul class="td-dropdown-content-right" aria-labelledby="td-desktop-nav-dropdown-link-0">
-                                    <li class="active"><a href="javascript:void(0);">Personal</a></li>
-                                    <li><a href="javascript:void(0);">Business</a></li>
-                                    <li><a href="javascript:void(0);">Wealth</a></li>
+                                    <li class="active"><a href="javascript:void(0);">Institutional</a></li>
+                                    <li><a href="javascript:void(0);">Advisor</a></li>
+                                    <li><a href="javascript:void(0);">Individual Investor</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -38,10 +38,17 @@
                     <div class="td-other-toggles">
                         <ul>
                             <li class="td-dropdown td-dropdown-country td-dropdown-no-hover">
-                                <a href="javascript:void(0)" aria-haspopup="true" aria-expanded="false" id="td-desktop-nav-dropdown-link-0"><span class="td-forscreenreader">Select country</span>Canada<span class="td-icon expand" aria-hidden="true"></span><span class="td-icon collapse" aria-hidden="true"></span></a>
+                                <a href="javascript:void(0)" aria-haspopup="true" aria-expanded="false" id="td-desktop-nav-dropdown-link-0"><span class="td-forscreenreader">Select country</span>U.S.<span class="td-icon expand" aria-hidden="true"></span><span class="td-icon collapse" aria-hidden="true"></span></a>
                                 <ul class="td-dropdown-content" aria-labelledby="td-desktop-nav-dropdown-link-0">
-                                    <li class="active"><a href="javascript:void(0)">Canada<span class="td-icon selected" aria-hidden="true"></span><span class="td-forscreenreader">Selected</span></a></li>
-                                    <li><a href="javascript:void(0)">United States</a></li>
+                                    <li class="active"><a href="javascript:void(0)">U.S.<span class="td-icon selected" aria-hidden="true"></span><span class="td-forscreenreader">Selected</span></a></li>
+                                    <li><a href="javascript:void(0)">Canada</a></li>
+                                </ul>
+                            </li>
+							<li class="td-dropdown td-dropdown-country td-dropdown-no-hover">
+                                <a href="javascript:void(0)" aria-haspopup="true" aria-expanded="false" id="td-desktop-nav-dropdown-link-0"><span class="td-forscreenreader">Select Currency</span>USD<span class="td-icon expand" aria-hidden="true"></span><span class="td-icon collapse" aria-hidden="true"></span></a>
+                                <ul class="td-dropdown-content" aria-labelledby="td-desktop-nav-dropdown-link-0">
+                                    <li class="active"><a href="javascript:void(0)">USD<span class="td-icon selected" aria-hidden="true"></span><span class="td-forscreenreader">Selected</span></a></li>
+                                    <li><a href="javascript:void(0)">CAD</a></li>
                                 </ul>
                             </li>
                             <li class="td-dropdown td-dropdown-language td-dropdown-no-hover">
@@ -82,27 +89,64 @@
                                         <li class="first Equities lvl-menu"><a href="javascript:void(0)">Equities</a></li>
                                         <li class="first Fixed-Income lvl-menu"><a href="javascript:void(0)">Fixed Income</a></li>
                                         <hr>
-                                        <li class="first direct-lvl-menu"><a href="javascript:void(0)">All Strategies</a></li>
-                                        <li class="first direct-lvl-menu"><a href="javascript:void(0)">Fund Litrature</a></li>
+                                        <li class="first direct-lvl-menu"><a href="javascript:void(0)" class="td-link-standalone">View All Strategies</a></li>
+                                        <li class="first direct-lvl-menu"><a href="javascript:void(0)" class="td-link-standalone">Fund Literature</a></li>
                                     </ul>
                                     <ul class="second-lvl-menu" id="Equities">
                                         <li class="lvl-heading">Investment Style</li>
                                         <li class="second lvl-menu"><a href="javascript:void(0)">Core</a></li>
                                         <li class="second lvl-menu"><a href="javascript:void(0)">Value</a></li>
                                         <li class="second lvl-menu"><a href="javascript:void(0)">Choice</a></li>
-                                        <li class="second lvl-menu Scructred-Active"><a href="javascript:void(0)">Scructred Active</a></li>
+                                        <li class="second lvl-menu has-menu">
+                                            <a href="javascript:void(0)" id="show-submenu" aria-valuenow="Structured">Structured Active</a>
+                                            <div class="hide-menu td-col-lg-7" aria-labelledby="show-submenu" id="Structured">
+                                                <div class="container-fluid">
+                                                    <div class="td-row">
+                                                        <div class="td-col-sm-6">
+                                                            <ul class="thirdmenu">
+                                                                <li class="lvl-heading">U.S.</li>
+                                                                <li>
+                                                                    <a href="https://www.td.com" class="td-link-standalone">U.S. Equity Shareholder Yield</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://www.td.com" class="td-link-standalone">U.S. Quality Capital Reinvestent</a>
+                                                                </li>
+                                                                <li class="lvl-heading">Non-U.S.</li>
+                                                                <li>
+                                                                    <a href="https://www.td.com" class="td-link-standalone">Non-U.S. Quality Capital Reinvestent</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://www.td.com" class="td-link-standalone">Non-U.S. Equity Shareholder Yield</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="td-col-sm-6">
+                                                            <ul class="thirdmenu">
+                                                                <li class="lvl-heading">Global</li>
+                                                                <li>
+                                                                    <a href="https://www.tdcanadatrust.com" class="td-link-standalone">Global Equity Shareholder Yield</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="https://www.td.com" class="td-link-standalone">Global Quality Capital Reinvestent</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
                                         <li class="second lvl-menu"><a href="javascript:void(0)">Low Validity</a></li>
                                         <li class="second lvl-menu"><a href="javascript:void(0)">Systemetic</a></li>
                                     </ul>
-                                    <ul class="second-lvl-menu third-lvl-menu" id="Scructred-Active" style="width:400px; background-color: #f3f3f8;">
+                                    <!-- <ul class="second-lvl-menu third-lvl-menu" id="Scructred-Active" style="width:400px; background-color: #f3f3f8;">
                                         <li class="lvl-heading">Investment Style</li>
                                         <li><a href="javascript:void(0)">Core</a></li>
                                         <li><a href="javascript:void(0)">Value</a></li>
                                         <li><a href="javascript:void(0)">Choice</a></li>
-                                        <li><a href="javascript:void(0)">Scructred Active</a></li>
+                                        <li><a href="javascript:void(0)">Structured Active</a></li>
                                         <li><a href="javascript:void(0)">Low Validity</a></li>
                                         <li><a href="javascript:void(0)">Systemetic</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </li>
                             <li><a href="javascript:void(0)">Insight</a></li>

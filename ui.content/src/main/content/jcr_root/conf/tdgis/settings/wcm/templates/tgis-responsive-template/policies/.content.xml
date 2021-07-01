@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-06-28T10:26:17.797Z"
+        cq:lastModified="{Date}2021-07-01T07:40:15.382Z"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-04-12T11:56:02.875Z"
         cq:lastReplicatedBy="admin"
@@ -20,6 +20,16 @@
                 cq:policy="tdgis/components/structure/responsivegrid/policy_1624364652719"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/core/components/policies/mapping"/>
+            <tdgis jcr:primaryType="nt:unstructured">
+                <components jcr:primaryType="nt:unstructured">
+                    <content jcr:primaryType="nt:unstructured">
+                        <title
+                            cq:policy="tdgis/components/content/title/policy_1625123815370"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                    </content>
+                </components>
+            </tdgis>
         </root>
     </jcr:content>
 </jcr:root>

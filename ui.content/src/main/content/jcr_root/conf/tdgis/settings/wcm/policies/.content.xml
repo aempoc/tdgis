@@ -342,12 +342,12 @@
             <structure jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_1624364652719
-                        jcr:lastModified="{Date}2021-06-28T10:26:17.794Z"
+                        jcr:lastModified="{Date}2021-07-01T07:40:15.379Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="tdgis-body-policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:TD Global Investment Solutions - Container,group:TD Global Investment Solutions - Content,group:TD Global Investment Solutions - Form]">
+                        components="[group:TD Global Investment Solutions - Container,group:TD Global Investment Solutions - Content,group:TD Global Investment Solutions - Form,group:We.Retail Form]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1624364652719>
                     <policy_1105015937855500
@@ -364,7 +364,44 @@
             </structure>
             <content jcr:primaryType="nt:unstructured">
                 <text jcr:primaryType="nt:unstructured"/>
-                <title jcr:primaryType="nt:unstructured"/>
+                <title jcr:primaryType="nt:unstructured">
+                    <policy_1625123815370
+                        jcr:lastModified="{Date}2021-07-01T07:19:28.505Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="[title-styling-policy,]"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        alignment="text-center"
+                        allowedTypes="[h1,h2,h3,h4,h5,h6]"
+                        linkDisabled="false"
+                        type="[h1,h1]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Hide"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="hidden-lg"
+                                        cq:styleId="1625123831230"
+                                        cq:styleLabel="Hide in desktop"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="hidden-xs"
+                                        cq:styleId="1625123852233"
+                                        cq:styleLabel="Hide in mobile"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="hidden-sm hidden-md"
+                                        cq:styleId="1625123874407"
+                                        cq:styleLabel="Hide in tablet"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1625123815370>
+                </title>
             </content>
         </components>
     </tdgis>

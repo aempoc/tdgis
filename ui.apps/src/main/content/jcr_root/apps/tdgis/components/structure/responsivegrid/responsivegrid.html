@@ -1,7 +1,6 @@
 <sly data-sly-test="${wcmmode.edit}" data-sly-use.allowed="com.day.cq.wcm.foundation.model.AllowedComponents"></sly>
-
 <div data-sly-use.api="com.day.cq.wcm.foundation.model.responsivegrid.ResponsiveGrid" class="${api.cssClass} ${allowed.cssClass}"
-    <div class="td_rq_tooltip">
+   <div class="td_rq_tooltip">
         <div class="td_rq_popover td-contentarea" role="main" id="main" tabindex="-1">
             <sly data-sly-test.isAllowedApplicable="${allowed.isApplicable}"
                  data-sly-test="${isAllowedApplicable}"
@@ -14,6 +13,6 @@
                  data-sly-resource="${child.path @ resourceType=child.resourceType, decoration='false', cssClassName=child.cssClass}"></sly>
             <sly data-sly-test="${!isAllowedApplicable && wcmmode.edit}"
                  data-sly-resource="${resource.path @ resourceType='wcm/foundation/components/responsivegrid/new', appendPath='/*', decorationTagName='div', cssClassName='new section aem-Grid-newComponent'}"/>
-        </div>
+         </div>
     </div>
 </div>
