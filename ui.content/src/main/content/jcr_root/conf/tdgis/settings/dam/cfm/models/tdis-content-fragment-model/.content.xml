@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2021-06-30T13:45:36.992Z"
+        cq:lastModified="{Date}2021-07-02T08:23:06.804Z"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/conf/tdgis/settings/dam/cfm/models/tdis-content-fragment-model/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -22,49 +22,50 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2021-06-30T13:45:36.992Z"
+                    jcr:lastModified="{Date}2021-07-02T08:23:06.804Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
                         maxGeneratedOrder="21">
+                        <_x0031_625139843415
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                            emptyOption="{Boolean}true"
+                            listOrder="6"
+                            metaType="enumeration"
+                            name="articletype"
+                            options="Article,Podcast,Webcast,Blogs"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <datasource
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrenderer"
+                                variant="default"/>
+                        </_x0031_625139843415>
                         <_x0031_625060447317
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            emptyText="Heading"
-                            fieldLabel="Field Label"
+                            emptyText="Title"
+                            fieldLabel="Article Title"
                             listOrder="1"
                             maxlength="255"
                             metaType="text-single"
-                            name="title"
+                            name="articletitle"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            value="This is Heading"
                             valueType="string"/>
-                        <_x0031_625060556948
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
-                            emptyText="Number"
-                            fieldLabel="Field Label"
-                            listOrder="3"
-                            metaType="number"
-                            name="number"
-                            renderReadOnly="false"
-                            showEmptyInReadOnly="true"
-                            step="1"
-                            typeHint="long"
-                            value="4"
-                            valueType="long"/>
                         <_x0031_625060601838
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/datepicker"
                             displayedFormat="YYYY-MM-DD HH:mm"
                             emptyText="YYYY-MM-DD HH:mm"
-                            fieldLabel="Field Label"
+                            fieldLabel="Article Date"
                             listOrder="5"
                             metaType="date"
-                            name="publishdate"
+                            name="articledate"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             type="datetime"
@@ -78,31 +79,25 @@
                         <_x0031_625060711860
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
-                            cfm-element="Description"
                             default-mime-type="text/html"
-                            listOrder="21"
+                            listOrder="2"
                             metaType="text-multi"
-                            name="description"
+                            name="articledetails"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string"/>
-                        <_x0031_625060620665
+                        <_x0031_625214147927
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                            emptyOption="{Boolean}true"
-                            fieldLabel="Dropdown Field"
-                            listOrder="6"
-                            metaType="enumeration"
-                            name="dropdown"
-                            options="option1,option2,option3"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Content Reference"
+                            filter="hierarchy"
+                            listOrder="21"
+                            metaType="reference"
+                            name="contentreference"
+                            nameSuffix="contentReference"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            valueType="string">
-                            <datasource
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/admin/components/datasources/optionrenderer"
-                                variant="default"/>
-                        </_x0031_625060620665>
+                            valueType="string"/>
                     </items>
                 </content>
             </cq:dialog>

@@ -3,8 +3,7 @@
     jcr:language="fr"
     jcr:mixinTypes="[mix:language]"
     jcr:primaryType="nt:folder">
-    <copyright
+    <Need_x0020_Information_x0020_now_x003f__x0020_Just_x0020_select_x0020_what_x0020_you_x0020_need
         jcr:primaryType="sling:MessageEntry"
-        sling:key="copy"
-        sling:message="© {0} We.Retail Site. Tous droits réservés."/>
+        sling:message="Besoin d'informations maintenant ? Sélectionnez simplement ce dont vous avez besoin"/>
 </jcr:root>

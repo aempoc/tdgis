@@ -1,4 +1,21 @@
-
+.flexbox-container img {
+		width:322.328px!important;
+    	height:181.156px!important;
+    }
+.flexbox-container .flexbox-col {
+	padding-bottom:30px!important;
+}
+.mod-time {
+	font-size:12px;
+	color:#8C8C8C;
+    margin-top:10px;
+}
+.mod-time img {
+	height:15px!important;
+    width:15px!important;
+    margin:0px!important;
+    margin-right:5px!important
+}
 .td-utility-toggle {
     background-color: #1A5336;
 }

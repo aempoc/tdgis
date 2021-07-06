@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-07-01T10:57:03.680Z"
+        cq:lastModified="{Date}2021-07-05T15:31:53.166Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:primaryType="cq:PageContent"
@@ -23,7 +23,7 @@
                 <title
                     jcr:created="{Date}2021-06-30T13:55:27.205Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-06-30T13:55:39.965Z"
+                    jcr:lastModified="{Date}2021-07-02T06:56:15.791Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Need Information now? Just select what you need"
@@ -66,8 +66,9 @@
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="3"
-                                width="8"/>
+                                behavior="none"
+                                offset="NaN"
+                                width="NaN"/>
                         </cq:responsive>
                         <items jcr:primaryType="nt:unstructured">
                             <item0

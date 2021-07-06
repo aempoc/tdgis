@@ -1,0 +1,19 @@
+<div data-sly-test="${properties.itemType == 'left'}"  data-sly-unwrap><br>
+		<a href="${properties.link}.html"  style="font-weight:bold;" >
+            <span class="td-link-firstword"> 
+                <span class="td-icon td-icon-leftCaret" aria-hidden="true">&nbsp;</span>
+            </span>
+            <span>${properties.text}</span>
+		</a>
+</div>
+
+<div data-sly-test="${properties.itemType == 'right'}"  data-sly-unwrap>
+		<a href="${properties.link}.html"  style="font-weight:bold ; " >
+		<span>${properties.text}</span>
+            <span class="td-link-lasttword"> 
+                <span class="td-icon td-icon-rightCaret" aria-hidden="true">&nbsp;</span>
+            </span>
+          </a>
+</div>
+
+

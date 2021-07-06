@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-07-01T11:19:44.296Z"
+        cq:lastModified="{Date}2021-07-05T15:32:53.246Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:primaryType="cq:PageContent"
@@ -23,7 +23,7 @@
                 <title
                     jcr:created="{Date}2021-06-30T13:55:27.205Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-06-30T13:55:39.965Z"
+                    jcr:lastModified="{Date}2021-07-02T06:51:17.966Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Need Information now? Just select what you need"
@@ -34,11 +34,11 @@
                 <text
                     jcr:created="{Date}2021-06-30T13:55:57.967Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-06-30T13:57:02.805Z"
+                    jcr:lastModified="{Date}2021-07-02T06:53:11.633Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="tdgis/components/content/text"
-                    text="&lt;p class=&quot;text-center&quot;>We have experience managing a wide variety of institutional client assets.&lt;br>&#xd;&#xa;Please contact us to learn more about how we can help&lt;/p>&#xd;&#xa;"
+                    text="&lt;p class=&quot;text-center&quot;>We have experience managing a wide variety of institutional client assets.&lt;br />&#xd;&#xa;Please contact us to learn more about how we can help&lt;/p>&#xd;&#xa;"
                     textIsRich="true"/>
                 <container
                     jcr:created="{Date}2021-06-30T14:36:28.531Z"
@@ -66,8 +66,8 @@
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="3"
-                                width="8"/>
+                                offset="0"
+                                width="5"/>
                         </cq:responsive>
                         <items jcr:primaryType="nt:unstructured">
                             <item0
@@ -100,7 +100,7 @@
                     <text
                         jcr:created="{Date}2021-06-30T14:36:36.947Z"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-06-30T14:49:07.628Z"
+                        jcr:lastModified="{Date}2021-07-02T06:53:40.440Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Name*"
@@ -239,6 +239,20 @@
                                 width="3"/>
                         </cq:responsive>
                     </button>
+                    <text_1234614204
+                        jcr:created="{Date}2021-07-05T15:32:31.284Z"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-07-05T15:32:31.284Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="weretail/components/form/text">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="5"/>
+                        </cq:responsive>
+                    </text_1234614204>
                 </container>
             </responsivegrid>
         </root>

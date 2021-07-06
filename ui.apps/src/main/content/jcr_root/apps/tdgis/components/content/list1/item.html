@@ -15,7 +15,6 @@
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
 <sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"/>
   <sly data-sly-call="${clientLib.css @ categories='css-list1'}"/>
-
 <template data-sly-template.item="${@ list, item}">
     <article>
         <a class="cmp-list__item-link" href="${item.URL}" data-sly-unwrap="${!list.linkItems}">
@@ -27,13 +26,26 @@
     </article>
 </template>
 <template data-sly-template.article="${@ list, item}">
-    <article>
-        <a class="cmp-list__item-link" href="${item.URL}" data-sly-unwrap="${!list.linkItems}">
-            <sly data-sly-resource="${item.path @ appendPath='/jcr:content/root/responsivegrid/image', resourceType='tdgis/components/content/image', decoration='false'}"></sly>
-            <span class="cmp-list__item-title">${item.title}</span>
-            <span data-sly-test="${list.showModificationDate}"
-                  class="cmp-list__item-date">${list.dateFormatString @format=item.lastModified}</span>
-        </a>
-        <span data-sly-test="${list.showDescription}" class="cmp-list__item-description">${item.description}</span>
-    </article>
+
+        <div class="flexbox" style="padding:40px; background-color: #fff;">
+            <sly  data-sly-resource="${item.path @ appendPath='jcr:content/root/responsivegrid/twocolview/par-1/image', resourceType='tdgis/components/content/image', decoration='false'}" style="height:86px;width:152px"></sly>
+			<div class ="flexcopy">
+                <h3>
+                	<a class="td-link-standalone"  href="${item.URL}" data-sly-unwrap="${!list.linkItems}">${item.title}</a>
+                </h3>
+                <div class="rte">
+                    <p data-sly-test="${list.showDescription}">${item.description}</p>
+                </div>
+			</div>
+			<!--/*<div class="flex-cta align-bottom">
+        		<a class="btn td-button-clear-green"  href="${item.URL}"   data-sly-unwrap="${!list.linkItems}">Learn more </a>
+        	</div>
+            <br>*/-->
+            <div class="rte mod-time">
+            	<img src="/content/dam/system/img/time.png"/>
+            <span  data-sly-test="${list.showModificationDate}" >
+            	${list.dateFormatString @format=item.lastModified}</span>
+            </div>
+        </div>
+
 </template>
