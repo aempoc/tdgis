@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2b47f983-c451-4f56-b5c6-29808a9231da">
+    <jcr:content
+        cq:lastModified="{Date}2021-07-08T10:13:55.385Z"
+        cq:lastModifiedBy="admin"
+        cq:name="rates-11"
+        cq:parentPath="/content/dam/tdgis/content-fragment/en"
+        jcr:lastModified="{Date}2021-07-08T10:15:38.068Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Rates 2"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-07-08T10:15:38.068Z">
+        <data
+            cq:model="/conf/tdgis/settings/dam/cfm/models/rates-cf-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                date="As of March 2021"
+                date_x0040_LastModified="{Date}2021-07-08T10:15:07.881Z"
+                rates="220+"
+                rates_x0040_LastModified="{Date}2021-07-08T10:15:07.881Z"
+                title="Investment Professional"
+                title_x0040_LastModified="{Date}2021-07-08T10:15:07.881Z"/>
+            <rates_2
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                date="As of March 2021"
+                date_x0040_LastModified="{Date}2021-07-08T10:14:46.886Z"
+                rates="220+"
+                rates_x0040_LastModified="{Date}2021-07-08T10:14:46.885Z"
+                title_x0040_LastModified="{Date}2021-07-08T10:14:46.885Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <rates_2
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Rates 2"
+                    name="rates_2">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[title:c23f8dc9-88fb-4342-a712-c00f59ad0059,rates:c23f8dc9-88fb-4342-a712-c00f59ad0059,date:c23f8dc9-88fb-4342-a712-c00f59ad0059]"/>
+                </rates_2>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

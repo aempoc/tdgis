@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-07-01T07:44:25.719Z"
+        cq:lastModified="{Date}2021-07-06T15:34:43.418Z"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-04-12T11:56:02.875Z"
         cq:lastReplicatedBy="admin"
@@ -33,6 +33,13 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="tdgis/components/structure/responsivegrid"
                 editable="{Boolean}true"/>
+            <footer
+                jcr:created="{Date}2021-07-06T14:20:45.084Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-07-06T14:20:45.084Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tdgis/components/structure/footer"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

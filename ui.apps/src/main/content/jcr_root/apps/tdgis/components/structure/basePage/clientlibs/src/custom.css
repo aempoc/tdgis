@@ -1,5 +1,19 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {display: none !important;}
+.rates-value {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 48px !important;
+    font-size: 3rem !important;
+    line-height: 1.5;
+    font-weight: normal;
+}
+    .rates h4 {
+
+        margin-top:0px!important;
+            margin-bottom:0px!important
+        }
 .flexbox-container img {
-		width:322.328px!important;
+		width:100%!important;
     	height:181.156px!important;
     }
 .flexbox-container .flexbox-col {

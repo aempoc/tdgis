@@ -13,7 +13,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
-<div class ="flexbox-container" style="padding:40px; background-color: #f9f9f9;">
+<section class ="flexbox-container" style="padding:40px; background-color: #f9f9f9;">
     <div data-sly-use.list="com.adobe.cq.wcm.core.components.models.List"
         data-sly-list.item="${list.listItems}"
         data-sly-use.template="core/wcm/components/commons/v1/templates.html"
@@ -21,5 +21,5 @@
         data-sly-test.itemType="${properties.itemType ? properties.itemType : 'item'}" class="td-row">
         <div class="flexbox-col td-col-sm-4 " data-sly-call="${itemTemplate[itemType] @ list = list, item = item}"></div>
     </div>
-</div>
+</section>
 <sly data-sly-call="${template.placeholder @ isEmpty=list.listItems.size == 0, classAppend='cmp-list'}"></sly>

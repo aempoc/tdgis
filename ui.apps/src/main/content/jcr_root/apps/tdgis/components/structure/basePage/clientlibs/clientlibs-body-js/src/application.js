@@ -424,7 +424,7 @@ function tdctRedesignController($scope, $rootScope, $http, $cookies, $timeout, $
         selectedItemsLength: 0
     };
     init();
-    console.log("console log");
+
     /**
      * Update Summary Exposed Filter Tool
      */
@@ -495,6 +495,12 @@ function tdctRedesignController($scope, $rootScope, $http, $cookies, $timeout, $
             });
         });
         $(".td_rq_compare_modal").tdCompareModal();
+    }
+    vm.rateData = '';
+    vm.getPocRates = function(url) {
+		$http.get(url).then(function successCallback(response) {
+            vm.rateData = response.data.items;
+        });
     }
     var initComapareModal = function() {
         COMPARE_MODAL_TD_SPINNER = COMPARE_MODAL.find('.td-spinner');

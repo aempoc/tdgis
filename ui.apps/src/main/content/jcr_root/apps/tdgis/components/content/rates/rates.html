@@ -1,0 +1,33 @@
+<section id="uniqueId_36_2" class="td_rq_multiple-cta rates td-multiple-cta td-cta-2 collapsed" ng-init="a.getPocRates('${properties.fragmentPath@context='scriptString'}')" data-ng-cloak>
+
+    <div class="td-container">
+        <div class="td-row">
+
+            <h2>${properties.title}</h2>
+
+            <div class="td-col-xs-12 td-col-sm-10 td-col-sm-offset-1 td-col-lg-8 td-col-lg-offset-2" style="margin-bottom:30px;">    
+                    <div class="rte">                
+						${properties.description @context='html'}
+                    </div>
+                </div>
+            <div class="td-col-sm-3">
+                <!-- Empty container - required -->
+            </div>
+
+            <!-- CTA -->
+            <div class="td-cta td-col-sm-3" ng-repeat="item in a.rateData">
+
+                <h4>{{item.elements.title.value}}</h4>
+                <div class="td-row rates-value">{{item.elements.rates.value}}</div>
+                <div class="td-row" style="font-style:italic;font-weight:bold;font-size:12px;">{{item.elements.date.value}}</div>
+            </div>
+            <!-- end CTA -->
+
+
+            <div class="td-col-sm-3">
+                <!-- Empty container - required -->
+            </div>
+
+        </div>
+    </div>
+</section>

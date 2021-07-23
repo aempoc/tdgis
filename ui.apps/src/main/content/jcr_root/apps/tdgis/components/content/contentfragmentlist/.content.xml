@@ -3,5 +3,5 @@
     cq:styleElements="[div,section,article,main,aside,header,footer]"
     jcr:primaryType="cq:Component"
     jcr:title="Content Fragment List"
-    sling:resourceSuperType="core/wcm/components/contentfragmentlist/v1/contentfragmentlist"
+    sling:resourceSuperType="component-library/components/contentfragmentlist"
     componentGroup="TD Global Investment Solutions - Content"/>

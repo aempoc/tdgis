@@ -342,7 +342,7 @@
             <structure jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_1624364652719
-                        jcr:lastModified="{Date}2021-07-01T07:40:15.379Z"
+                        jcr:lastModified="{Date}2021-07-06T15:36:12.553Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="tdgis-body-policy"
@@ -361,6 +361,23 @@
                     </policy_1105015937855500>
                 </responsivegrid>
                 <basePage jcr:primaryType="nt:unstructured"/>
+                <responsivegrid2 jcr:primaryType="nt:unstructured">
+                    <policy_1625586572926
+                        cq:styleDefaultClasses="td-contentarea"
+                        jcr:lastModified="{Date}2021-07-06T15:55:27.069Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:TD Global Investment Solutions - Container,group:TD Global Investment Solutions - Content,group:TD Global Investment Solutions - Form]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2021-07-06T15:51:33.431Z"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1625586572926>
+                </responsivegrid2>
             </structure>
             <content jcr:primaryType="nt:unstructured">
                 <text jcr:primaryType="nt:unstructured"/>
@@ -402,6 +419,62 @@
                         </cq:styleGroups>
                     </policy_1625123815370>
                 </title>
+                <contentfragment jcr:primaryType="nt:unstructured">
+                    <policy_1625738140180
+                        cq:styleDefaultElement="div"
+                        jcr:lastModified="{Date}2021-07-08T09:57:40.218Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="CF-policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Contributor"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="hidden-xs"
+                                        cq:styleElement="div"
+                                        cq:styleId="1625738210176"
+                                        cq:styleLabel="Clean"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1625738140180>
+                </contentfragment>
+                <contentfragmentlist jcr:primaryType="nt:unstructured">
+                    <policy_1625739974843
+                        jcr:lastModified="{Date}2021-07-08T10:51:25.655Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="CF-policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Contributor"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="fragmentexamples-clean"
+                                        cq:styleElement="div"
+                                        cq:styleId="1625739982634"
+                                        cq:styleLabel="Clean"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses=".text-center"
+                                        cq:styleElement="article"
+                                        cq:styleId="1625741448980"
+                                        cq:styleLabel="testig"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1625739974843>
+                </contentfragmentlist>
+                <page jcr:primaryType="nt:unstructured"/>
             </content>
         </components>
     </tdgis>
@@ -409,13 +482,18 @@
         <components jcr:primaryType="nt:unstructured">
             <responsivegrid jcr:primaryType="nt:unstructured">
                 <policy_1624362800062
-                    jcr:lastModified="{Date}2021-06-23T13:17:01.739Z"
+                    jcr:lastModified="{Date}2021-07-06T15:46:46.206Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="tdgis-template-policy"
                     sling:resourceType="wcm/core/components/policy/policy"
                     components="[group:TD Global Investment Solutions - Content,group:TD Global Investment Solutions - Form,group:TD Global Investment Solutions - Structure]">
-                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <jcr:content
+                        cq:lastReplicated="{Date}2021-07-06T15:51:33.431Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicationAction="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus]"
+                        jcr:primaryType="nt:unstructured"/>
                 </policy_1624362800062>
                 <policy_1102644369566900
                     jcr:lastModified="{Date}2021-06-22T12:14:05.538Z"
