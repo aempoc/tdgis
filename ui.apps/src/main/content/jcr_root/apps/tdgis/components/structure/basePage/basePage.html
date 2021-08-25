@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-CA" xml:lang="en-CA">
+<head data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="format-detection" content="telephone=no"/>
 <meta name="description" content="Explore what TD Canada Trust is all about. Learn about our values, initiatives, reporting, news, careers, recent awards, and more.">
-
-<head data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"> 
-
 <sly data-sly-include="head.html"></sly>
 <sly data-sly-call="${clientlib.all@categories='wcm.foundation.components.parsys.allowedcomponents'}"/> 
-
 <sly data-sly-test.clientlibCategories="${currentStyle['clientlibs']}"
          data-sly-call="${clientlib.all @ categories = clientlibCategories}"></sly>
 <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.all @ categories='tdgis.base'}" data-sly-unwrap/>
 <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.all @ categories='tdgis.contentfragment'}" data-sly-unwrap/>
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientlib.css @ categories='component-library.core'}" data-sly-unwrap/>
 <script type="text/javascript">
 	var conTextPathVal ="/ca/en/about-td";
 	var infositeUrl = "https://www.tdcanadatrust.com/products-services/banking/getcookie.jsp";

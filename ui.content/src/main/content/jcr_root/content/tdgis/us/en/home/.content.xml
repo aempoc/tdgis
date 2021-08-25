@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-07-14T15:15:43.491Z"
+        cq:lastModified="{Date}2021-08-25T14:11:19.354Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:primaryType="cq:PageContent"
@@ -14,37 +14,29 @@
             <responsivegrid
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="tdgis/components/structure/responsivegrid">
-                <banner
-                    jcr:created="{Date}2021-07-06T10:25:10.471Z"
+                <customteaser_225627606
+                    jcr:created="{Date}2021-08-25T14:09:48.388Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-07-14T15:15:43.484Z"
+                    jcr:lastModified="{Date}2021-08-25T14:11:19.350Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="tdgis/components/content/banner"
+                    sling:resourceType="tdgis/components/content/customteaser"
                     actionsEnabled="true"
-                    bannerType="bannerCTA"
-                    descriptionFromPage="false"
-                    desktopImage="/content/dam/system/img/1.1-A-Banner-1200px.jpg"
-                    landscapeImage="/content/dam/system/img/1.1-A-Banner-1024px.jpg"
-                    mobileImage="/content/dam/system/img/1.1-A-Banner-320px-2x.jpg"
-                    portraitImage="/content/dam/system/img/1.1-A-Banner-768px.jpg"
-                    pretitle="Ready We've made saving easy so you can reach your goals"
-                    textIsRich="true"
-                    titleFromPage="false">
+                    description="&lt;p class=&quot;td-banner-body&quot;>&lt;span class=&quot;td-green-text&quot;>Ready&lt;/span> Earn miles twice and get a welcome bonus of up to 30,000 Aeroplan Miles with the TD &lt;span class=&quot;italic&quot;>Infinite&lt;/span> Visa Aeroplan Card.&lt;/p>&#xd;&#xa;"
+                    desktopImageRef="/content/dam/system/img/1.1-A-Banner-1200px.jpg"
+                    landscapeImageRef="/content/dam/system/img/1.1-A-Banner-1024px.jpg"
+                    mobileImageRef="/content/dam/system/img/1.1-A-Banner-320px-2x.jpg"
+                    portraitImageRef="/content/dam/system/img/1.1-A-Banner-768px.jpg"
+                    textIsRich="true">
                     <actions jcr:primaryType="nt:unstructured">
                         <item0
                             jcr:primaryType="nt:unstructured"
-                            customCss="td-button td-button-block td-cta-button td-cta-action td-button-secondary"
-                            link="/content/sites"
-                            text="Community"/>
-                        <item1
-                            jcr:primaryType="nt:unstructured"
-                            customCss="td-button td-button-block td-cta-button td-cta-action td-button-clear-green"
                             link="/content/tdgis/us/en/contact-us"
                             text="Contact Us"/>
                     </actions>
-                </banner>
+                </customteaser_225627606>
                 <singleproductcontain_1990398197
+                    cq:styleIds="[1629889747277]"
                     jcr:created="{Date}2021-06-28T11:46:23.690Z"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2021-07-12T15:21:16.658Z"
@@ -134,6 +126,12 @@
                     <par_BottomDesc
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="component-library/components/layouts/parsys"/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
                 </singleproductcontain_1990398197>
                 <rates
                     jcr:created="{Date}2021-07-12T14:33:52.423Z"
@@ -163,6 +161,25 @@
                     showModificationDate="true"
                     sortOrder="asc"
                     tagsMatch="any"/>
+                <singleproductcontain/>
+                <accordion
+                    jcr:created="{Date}2021-08-24T10:51:37.826Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-24T10:51:37.826Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="tdgis/components/content/accordion">
+                    <item_1
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Item 1"
+                        sling:resourceType="tdgis/components/container"
+                        layout="responsiveGrid"/>
+                    <item_2
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Item 2"
+                        sling:resourceType="tdgis/components/container"
+                        layout="responsiveGrid"/>
+                </accordion>
             </responsivegrid>
         </root>
     </jcr:content>

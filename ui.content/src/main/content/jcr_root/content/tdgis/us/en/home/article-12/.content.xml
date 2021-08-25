@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-07-06T10:57:50.644Z"
+        cq:lastModified="{Date}2021-07-28T15:54:29.050Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:description="How TD supports the transition to a low-carbon economy."
@@ -57,7 +57,7 @@
                         <image
                             jcr:created="{Date}2021-07-04T10:44:00.508Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-07-05T08:20:46.702Z"
+                            jcr:lastModified="{Date}2021-07-28T15:54:29.046Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="tdgis/components/content/image"
