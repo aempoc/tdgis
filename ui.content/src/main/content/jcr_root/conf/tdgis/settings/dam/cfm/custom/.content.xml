@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        jcr:description="A custom template"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Custom Fragment"
+        precreateElements="{Boolean}true"
+        version="{Long}2">
+        <elements jcr:primaryType="nt:unstructured">
+            <title
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Title"
+                defaultContent=""
+                name="title"/>
+            <description
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Description"
+                defaultContent=""
+                name="description"/>
+        </elements>
+        <variations jcr:primaryType="nt:unstructured">
+            <desktop
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Desktop"
+                defaultContent=""
+                name="desktop"/>
+            <mobile
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Mobile"
+                defaultContent=""
+                name="mobile"/>
+        </variations>
+    </jcr:content>
+</jcr:root>

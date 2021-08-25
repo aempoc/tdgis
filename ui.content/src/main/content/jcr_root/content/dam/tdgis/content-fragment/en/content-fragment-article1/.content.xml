@@ -8,18 +8,27 @@
         cq:name="content-fragment-article1"
         cq:parentPath="/content/dam/tdgis/content-fragment/en"
         jcr:description=""
-        jcr:lastModified="{Date}2021-06-30T13:51:10.194Z"
+        jcr:lastModified="{Date}2021-07-02T08:24:47.578Z"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="content fragment article1"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2021-06-30T13:51:10.194Z">
+        lastFragmentSave="{Date}2021-07-02T08:24:47.578Z">
         <data
             cq:model="/conf/tdgis/settings/dam/cfm/models/tdis-content-fragment-model"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable]"
                 jcr:primaryType="nt:unstructured"
+                articledate="{Date}2021-06-30T19:13:00.000+05:30"
+                articledate_x0040_LastModified="{Date}2021-07-01T12:36:20.065Z"
+                articledetails="&lt;h1>How to help prevent online shopping scams: What to watch out for and how to avoid them&lt;/h1>&#xa;&lt;h1>&lt;img src=&quot;/content/dam/system/img/11.5.3_Desktop_320x178.jpg&quot; data-assetref=&quot;11.5.3_Desktop_320x178-1625141611834&quot;>&lt;br>&#xa;&lt;/h1>&#xa;&lt;p>Based on a TD Newsroom article published May 19, 2020&lt;br>&#xa;&lt;/p>&#xa;&lt;p>As many Canadians continue to stay home in response to the COVID-19 pandemic, online shopping has risen in popularity. From grocery stores that offer online ordering and pickup or delivery services, to smaller local businesses that are working hard to pivot to online sales during the pandemic, there are nearly endless opportunities for consumers to shop online.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;However, the Canadian Anti-Fraud Centre is warning Canadians that &amp;lt;a href=&amp;quot;https://www.antifraudcentre-centreantifraude.ca/features-vedette/2020/covid-19-eng.htm&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;fraudsters are exploiting the COVID-19 crisis&amp;lt;/a&amp;gt; to facilitate fraud and cybercrime.&lt;/p>&#xa;&lt;p>Tammy McKinnon, Head of the Financial Crimes and Fraud Management Group at TD, said a recent study conducted by TD indicated most Canadians surveyed believe that social isolation may increase vulnerability to fraudsters. &amp;quot;While it's extremely important to follow public health guidelines to stay home during this pandemic, we must also stay vigilant and do our diligence to protect our personal and financial information when making online purchases,&amp;quot; McKinnon said.&lt;/p>&#xa;&lt;p>Whether you're new to online shopping or are a seasoned e-shopper, here are a few key tips McKinnon recommends you keep in mind to to help avoid online shopping scams:&lt;/p>&#xa;&lt;p>If you've never shopped online before, a good place to start is with an established retailer you're familiar with.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;quot;Established retailers are more likely to have proper shopping and payment protocols, as well as customer service channels, so they are a good test run for new online shoppers,&amp;quot; McKinnon said. But just because a retailer isn't a larger, more established business doesn't mean they shouldn't be trusted with online purchases.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                articledetails_x0040_ContentType="text/html"
+                articledetails_x0040_LastModified="{Date}2021-07-01T12:36:20.065Z"
+                articletitle="How to help prevent online shopping scams: "
+                articletitle_x0040_LastModified="{Date}2021-07-01T12:36:20.064Z"
+                articletype="Article"
+                articletype_x0040_LastModified="{Date}2021-07-01T12:36:20.063Z"
                 description="&lt;p>bnvmvnvnm&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2021-06-30T13:51:09.797Z"
@@ -31,10 +40,38 @@
                 publishdate_x0040_LastModified="{Date}2021-06-30T13:51:09.797Z"
                 title="This is Heading"
                 title_x0040_LastModified="{Date}2021-06-30T13:51:09.796Z"/>
+            <variation1
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                articledate="{Date}2021-06-30T19:13:00.000+05:30"
+                articledate_x0040_LastModified="{Date}2021-07-02T08:24:46.215Z"
+                articledetails="&lt;h1>How to help prevent online shopping scams: What to watch out for and how to avoid them&lt;/h1>&#xa;&lt;h1>&lt;img src=&quot;/content/dam/system/img/11.5.3_Desktop_320x178.jpg&quot; data-assetref=&quot;11.5.3_Desktop_320x178-1625141611834&quot;>&lt;br>&#xa;&lt;/h1>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Tammy McKinnon, Head of the Financial Crimes and Fraud Management Group at TD, said a recent study conducted by TD indicated most Canadians surveyed believe that social isolation may increase vulnerability to fraudsters. &amp;quot;While it's extremely important to follow public health guidelines to stay home during this pandemic, we must also stay vigilant and do our diligence to protect our personal and financial information when making online purchases,&amp;quot; McKinnon said.&lt;/p>&#xa;&lt;p>Whether you're new to online shopping or are a seasoned e-shopper, here are a few key tips McKinnon recommends you keep in mind to to help avoid online shopping scams:&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                articledetails_x0040_ContentType="text/html"
+                articledetails_x0040_LastModified="{Date}2021-07-02T08:24:46.216Z"
+                articletitle="How to help prevent online shopping scams: "
+                articletitle_x0040_LastModified="{Date}2021-07-02T08:24:46.215Z"
+                articletype="Podcast"
+                articletype_x0040_LastModified="{Date}2021-07-02T08:24:46.214Z"
+                contentreference="/etc/dam/icons/alarm.svg"
+                contentreference_x0040_LastModified="{Date}2021-07-02T08:24:46.217Z"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <variation1
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Variation1"
+                    name="variation1">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[articletype:ca337c18-e529-4f43-9577-b07a993a14d3,articletitle:ca337c18-e529-4f43-9577-b07a993a14d3,articledate:ca337c18-e529-4f43-9577-b07a993a14d3,articledetails:ca337c18-e529-4f43-9577-b07a993a14d3]"/>
+                </variation1>
+            </variations>
+        </model>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
