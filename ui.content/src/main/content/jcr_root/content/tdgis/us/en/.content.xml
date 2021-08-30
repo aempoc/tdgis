@@ -2,93 +2,35 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
-        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:template="/conf/tdgis/settings/wcm/templates/page-content"
-        jcr:mixinTypes="[cq:LiveRelationship]"
+        cq:lastModified="{Date}2021-08-30T16:09:25.635Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="en"
-        sling:resourceType="tdgis/components/page"
-        pageTitle="TD Global Investment Solutions">
+        sling:resourceType="tdgis/components/structure/basePage">
         <root
-            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:lastModified="{Date}2021-08-24T16:24:40.293Z"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="tdgis/components/container"
-            layout="responsiveGrid">
-            <container
-                jcr:mixinTypes="[cq:LiveRelationship]"
+            sling:resourceType="component-library/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2021-07-01T07:44:25.716Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-24T16:36:31.561Z"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="tdgis/components/container">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="tdgis/components/title"/>
-                <container
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="tdgis/components/container"
-                    layout="responsiveGrid">
-                    <teaser
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="tdgis/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser>
-                    <teaser_copy
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="tdgis/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser_copy>
-                    <teaser_copy_1579324932
-                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Epic Journey"
-                        sling:resourceType="tdgis/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        textIsRich="true"
-                        titleFromPage="false">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </teaser_copy_1579324932>
-                    <helloworld
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="tdgis/components/helloworld"
-                        text="lalala :)"/>
-                </container>
-            </container>
+                sling:resourceType="tdgis/components/structure/responsivegrid"/>
+            <responsivegrid_543651796
+                jcr:created="{Date}2021-08-24T16:39:22.222Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-24T16:39:49.358Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tdgis/components/structure/responsivegrid"/>
         </root>
-        <cq:LiveSyncConfig
-            cq:isDeep="{Boolean}true"
-            cq:master="/content/tdgis/language-masters/en"
-            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
-            jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
+    <caas/>
+    <article-list/>
     <home/>
     <contact-us/>
-    <article-list/>
-    <caas/>
 </jcr:root>

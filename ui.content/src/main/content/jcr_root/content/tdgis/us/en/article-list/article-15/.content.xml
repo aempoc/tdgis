@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-07-07T15:22:42.471Z"
+        cq:lastModified="{Date}2021-08-30T16:09:28.045Z"
         cq:lastModifiedBy="admin"
         cq:tags="[tdgis:article-category/article]"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"

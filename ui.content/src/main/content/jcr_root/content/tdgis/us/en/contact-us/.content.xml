@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-08-03T13:40:56.141Z"
+        cq:lastModified="{Date}2021-08-30T16:09:30.209Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:primaryType="cq:PageContent"
@@ -23,7 +23,7 @@
                 <title
                     jcr:created="{Date}2021-06-30T13:55:27.205Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-07-02T06:56:15.791Z"
+                    jcr:lastModified="{Date}2021-08-30T16:00:31.420Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Need Information now? Just select what you need"
@@ -67,8 +67,8 @@
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 behavior="none"
-                                offset="3"
-                                width="7"/>
+                                offset="1"
+                                width="11"/>
                         </cq:responsive>
                         <items jcr:primaryType="nt:unstructured">
                             <item0
@@ -225,14 +225,14 @@
                     <button
                         jcr:created="{Date}2021-06-30T14:50:00.375Z"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-06-30T15:26:00.827Z"
+                        jcr:lastModified="{Date}2021-08-30T16:00:59.940Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="[Send Request]"
                         sling:resourceType="tdgis/components/content/form/button"
                         actionType="buttonType"
                         buttonSize="td-button-large"
-                        buttonType="td-button td-button-block td-cta-button td-cta-action td-button-secondary"
+                        buttonType="td-button td-button-block td-cta-button td-cta-action td-button-primary"
                         name="Send Request"
                         type="submit"
                         value="Send Request"

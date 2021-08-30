@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-07-06T14:55:52.187Z"
+        cq:lastModified="{Date}2021-08-30T16:09:25.680Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:primaryType="cq:PageContent"
@@ -66,8 +66,8 @@
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
-                                offset="3"
-                                width="7"/>
+                                offset="1"
+                                width="11"/>
                         </cq:responsive>
                         <items jcr:primaryType="nt:unstructured">
                             <item0

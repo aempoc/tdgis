@@ -1,4 +1,7 @@
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {display: none !important;}
+div.header {
+	height:106px;
+}
 .rates-value {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -6,6 +9,10 @@
     font-size: 3rem !important;
     line-height: 1.5;
     font-weight: normal;
+}
+.margin-top-lg {
+
+    margin-top: 140px;
 }
     .rates h4 {
 
