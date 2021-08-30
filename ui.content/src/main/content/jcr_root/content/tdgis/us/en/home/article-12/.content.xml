@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-07-28T15:54:29.050Z"
+        cq:lastModified="{Date}2021-08-30T16:09:29.235Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:description="How TD supports the transition to a low-carbon economy."
@@ -36,12 +36,12 @@
                         <buttonwitharrow
                             jcr:created="{Date}2021-07-04T10:42:49.133Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-07-04T11:25:43.825Z"
+                            jcr:lastModified="{Date}2021-08-30T16:04:28.922Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="tdgis/components/content/buttonwitharrow"
                             itemType="left"
-                            link="/content/tdgis/us/en/article-list"
+                            link="/content/tdgis/us/en/home"
                             text="Back to All Articles"/>
                         <title
                             jcr:created="{Date}2021-07-04T10:43:36.959Z"

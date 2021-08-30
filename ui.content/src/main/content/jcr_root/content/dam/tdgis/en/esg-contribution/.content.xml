@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a044a3e9-bf75-4094-bde4-0580f874d847">
+    <jcr:content
+        cq:name="esg-contribution"
+        cq:parentPath="/content/dam/tdgis/en"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-08-26T13:27:17.247Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="ESG contribution"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-26T13:27:17.248Z">
+        <data
+            cq:model="/conf/tdgis/settings/dam/cfm/models/article-content-fragment"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:tags="[tdgis:article-category/blogs]"
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                articleContent="&lt;p>&lt;b>A&lt;/b>t TD, we believe that we have a role to play when it comes to driving sustainable growth for the customers and communities we serve, and the economies we support. That's why we are committed to helping create a more sustainable future for everyone.&lt;/p>&#xa;&lt;p>Learn more about how we are continually working to embed responsible business practices across TD and how we are working toward achieving our target of net-zero greenhouse gas emissions associated with our operations and financing activities by 2050, aligned to the associated principles of the Paris Agreement.&lt;/p>&#xa;&lt;p>&lt;b>What is TD's Climate Action Plan?&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>TD is taking clear and ambitious steps to help address the urgent challenges of climate change to help economies transition successfully to the low-carbon economy.&lt;/li>&#xa;&lt;li>TD's climate action plan builds on a long history of environmental leadership to position the Bank as a central player in the work needed to enable sustainable growth for our customers and clients, the communities we serve and the economies we support.&lt;/li>&#xa;&lt;li>TD's ambitious climate action plan includes the following elements:&lt;ul>&#xa;&lt;li>A target to achieve net-zero greenhouse gas emissions associated with its operations and financing activities by 2050, aligned to the associated principles of the Paris Agreement.&lt;/li>&#xa;&lt;li>An industry-specific approach to prioritize and advance GHG reduction opportunities.&lt;/li>&#xa;&lt;li>Establishment of GHG emissions baselines across its business and financing portfolio.&lt;/li>&#xa;&lt;li>Will work closely with clients to set interim GHG reduction goals on the path towards 2050.&lt;/li>&#xa;&lt;li>Report on its progress starting with 2021.&lt;/li>&#xa;&lt;li>Creation of a new TD Sustainable Finance and Corporate Transitions Group within TD Securities to provide clients with advisory services and important transition and sustainability-focused financing globally.&lt;/li>&#xa;&lt;li>Creation of a TD ESG Centre of Expertise drawing on experts across TD to participate in global efforts to improve data measurement and analytics, invest in research and support academic progress and technological innovation.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>TD also announced that it will not provide any new project-specific financial services, including advisory services, for activities that are directly related to the exploration, development, or production of oil and gas within the Arctic Circle, including the Arctic National Wildlife Refuge (ANWR).&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&lt;b>Why is TD releasing a Climate Action Plan?&lt;/b>&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Climate change is a critical environmental and business challenge and will require significant effort over the long term to help our economies transition successfully to the low-carbon economy.&lt;/li>&#xa;&lt;li>TD wants to be a central player in the work needed to drive sustainable growth for our customers and clients, the communities we serve and the economies we support.&lt;/li>&#xa;&lt;li>The Climate Action Plan supports the Bank's Environmental, Social and Governance (ESG) strategy, which leverages TD's business, people and financial resources to help deliver sustainable economic prosperity.&lt;/li>&#xa;&lt;/ul>&#xa;"
+                articleContent_x0040_ContentType="text/html"
+                articleContent_x0040_LastModified="{Date}2021-08-26T13:27:16.912Z"
+                articleDatetime="{Date}2021-08-26T18:55:00.000+05:30"
+                articleDatetime_x0040_LastModified="{Date}2021-08-26T13:27:16.913Z"
+                articleImage="/content/dam/tdgis/48-hours-of-wilderness/48-hours-of-wilderness-1.jpg"
+                articleImage_x0040_LastModified="{Date}2021-08-26T13:27:16.911Z"
+                articleTags="[tdgis:article-category/blogs]"
+                articleTags_x0040_LastModified="{Date}2021-08-26T13:27:16.913Z"
+                articleTitle="A common sense approach to ESG contributes to Investment excellence"
+                articleTitle_x0040_LastModified="{Date}2021-08-26T13:27:16.911Z"/>
+        </data>
+        <metadata
+            cq:tags="[tdgis:article-category/blogs]"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

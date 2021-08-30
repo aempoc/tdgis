@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="098dab02-5b5f-4e20-9f6b-2cb54867a849">
+    <jcr:content
+        cq:name="preparing-for-a-career-in-the-post-digital-world"
+        cq:parentPath="/content/dam/tdgis/en"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-08-26T15:06:01.660Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Preparing for a career in the post-digital world"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-26T15:06:01.661Z">
+        <data
+            cq:model="/conf/tdgis/settings/dam/cfm/models/article-content-fragment"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                articleContent="&lt;p>&lt;a href=&quot;https://newsroom.td.com/featured-news/preparing-for-a-career-in-the-post-digital-world&quot;>Preparing for a career in the post-digital&amp;nbsp;world&lt;/a>&amp;nbsp;&lt;a href=&quot;https://newsroom.td.com/featured-news/preparing-for-a-career-in-the-post-digital-world&quot;>Preparing for a career in the post-digital&amp;nbsp;world&lt;/a>&lt;/p>&#xa;"
+                articleContent_x0040_ContentType="text/html"
+                articleContent_x0040_LastModified="{Date}2021-08-26T15:06:01.309Z"
+                articleDatetime_x0040_LastModified="{Date}2021-08-26T15:06:01.310Z"
+                articleImage="/content/dam/tdgis/arctic-surfing-in-lofoten/northern-lights.jpg"
+                articleImage_x0040_LastModified="{Date}2021-08-26T15:06:01.309Z"
+                articleTags_x0040_LastModified="{Date}2021-08-26T15:06:01.310Z"
+                articleTitle="Preparing for a career in the post-digital world"
+                articleTitle_x0040_LastModified="{Date}2021-08-26T15:06:01.308Z"/>
+        </data>
+        <metadata
+            cq:tags="[tdgis:article-category/blogs]"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -3,4 +3,5 @@
     jcr:primaryType="cq:Page">
     <tdis-content-fragment-model/>
     <rates-cf-model/>
+    <article-content-fragment/>
 </jcr:root>
