@@ -2,14 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-08-30T16:09:28.160Z"
+        cq:lastModified="{Date}2021-09-09T16:57:01.682Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home"
         sling:resourceType="tdgis/components/structure/basePage"
         navTitle="TDGIS"
-        pageTitle="TD Global Investment Solutions - Home">
+        pageTitle="TD Global Investment Solutions - Home"
+        theme="dark">
         <root jcr:primaryType="nt:unstructured">
             <responsivegrid
                 jcr:primaryType="nt:unstructured"
@@ -68,7 +69,7 @@
                         <title
                             jcr:created="{Date}2021-06-28T12:19:21.603Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-07-01T08:04:07.250Z"
+                            jcr:lastModified="{Date}2021-09-02T13:51:09.682Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Coverage for the accident&lt;/span>&lt;a href=&quot;https://www.google.com&quot;>&lt;sup>1&lt;/sup>&lt;/a>"
@@ -84,7 +85,7 @@
                         <image
                             jcr:created="{Date}2021-06-28T12:19:28.258Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-06-28T12:20:17.596Z"
+                            jcr:lastModified="{Date}2021-09-01T16:40:47.992Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="tdgis/components/content/image"
@@ -100,11 +101,11 @@
                         <text
                             jcr:created="{Date}2021-06-28T12:25:38.449Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-06-30T11:37:16.133Z"
+                            jcr:lastModified="{Date}2021-08-31T18:22:14.620Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="tdgis/components/content/text"
-                            text="&lt;p class=&quot;subhead&quot;>Why do I need Critical Accident Insurance?&lt;/p>&#xd;&#xa;&lt;p class=&quot;td-rte-margin-top-none td-rte-margin-bottom-medium&quot;>When you survive a critical accident, you could face a life with less income — or none at all — due to loss of work.&lt;/p>&#xd;&#xa;&lt;p class=&quot;subhead&quot;>What do I get with this coverage?&lt;/p>&#xd;&#xa;&lt;ul class=&quot;td-rte-margin-top-none&quot;>&#xd;&#xa;&lt;li>&lt;span>The plan can pay an amount up to $150,000&lt;/span>&lt;/li>&#xd;&#xa;&lt;li>&lt;span>Use your benefits any way you choose&lt;/span>&lt;/li>&#xd;&#xa;&lt;li>&lt;span>Up to $200 a day, for up to 365 days (while in the hospital)&lt;/span>&lt;/li>&#xd;&#xa;&lt;li>&lt;span>No medical exam require.&lt;/span>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                            text="&lt;p class=&quot;subhead&quot;>Why do I need Critical Accident Insurance?&lt;/p>&#xd;&#xa;&lt;p class=&quot;td-rte-margin-top-none td-rte-margin-bottom-medium&quot;>When you survive a critical accident, you could face a life with less income — or none at all — due to loss of work.&lt;/p>&#xd;&#xa;&lt;p class=&quot;subhead&quot;>What do I get with this coverage?&lt;/p>&#xd;&#xa;&lt;ul class=&quot;td-rte-margin-top-none&quot;>&#xd;&#xa;&lt;li>&lt;span>The plan can pay an amount up to $150,000&lt;/span>&lt;/li>&#xd;&#xa;&lt;li>&lt;span>Use your benefits any way you choose&lt;/span>&lt;/li>&#xd;&#xa;&lt;li>&lt;span>Up to $200 a day, for up to 365 days (while in the hospital)&lt;/span>&lt;/li>&#xd;&#xa;&lt;li>&lt;span>No medical exam require.&lt;/span>&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
                             textIsRich="true"/>
                     </par_TopDesc>
                     <par_Button
@@ -113,7 +114,7 @@
                         <button
                             jcr:created="{Date}2021-07-01T07:03:33.972Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-08-26T10:05:33.830Z"
+                            jcr:lastModified="{Date}2021-09-04T15:48:02.124Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Enroll Now"
@@ -133,6 +134,13 @@
                             offset="0"
                             width="12"/>
                     </cq:responsive>
+                    <par_configmng
+                        jcr:lastModified="{Date}2021-09-04T06:12:29.356Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="component-library/components/configmanager/v1/configmanager"
+                        sitename="Component Library"
+                        theme="dark"/>
                 </singleproductcontain_1990398197>
                 <rates
                     jcr:created="{Date}2021-07-12T14:33:52.423Z"
@@ -148,7 +156,7 @@
                 <list1_copy
                     jcr:created="{Date}2021-07-06T10:33:42.171Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-07-06T10:40:20.191Z"
+                    jcr:lastModified="{Date}2021-09-08T13:36:35.411Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="tdgis/components/content/list1"
@@ -163,24 +171,6 @@
                     sortOrder="asc"
                     tagsMatch="any"/>
                 <singleproductcontain/>
-                <accordion
-                    jcr:created="{Date}2021-08-24T10:51:37.826Z"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-08-24T10:51:37.826Z"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="tdgis/components/content/accordion">
-                    <item_1
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Item 1"
-                        sling:resourceType="tdgis/components/container"
-                        layout="responsiveGrid"/>
-                    <item_2
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Item 2"
-                        sling:resourceType="tdgis/components/container"
-                        layout="responsiveGrid"/>
-                </accordion>
             </responsivegrid>
         </root>
     </jcr:content>

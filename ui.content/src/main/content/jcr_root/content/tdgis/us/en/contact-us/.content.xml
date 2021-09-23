@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-08-30T16:09:30.209Z"
+        cq:lastModified="{Date}2021-09-04T15:42:34.118Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:primaryType="cq:PageContent"
@@ -23,10 +23,10 @@
                 <title
                     jcr:created="{Date}2021-06-30T13:55:27.205Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-08-30T16:00:31.420Z"
+                    jcr:lastModified="{Date}2021-09-04T15:39:02.048Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Need Information now? Just select what you need"
+                    jcr:title="&#xa;     &#xa;     Besoin d'informations maintenant? Sélectionnez simplement ce dont vous avez besoin&#xa;&#xa;"
                     sling:resourceType="tdgis/components/content/title"
                     alignment="text-center"
                     type="h2"
@@ -34,12 +34,19 @@
                 <text
                     jcr:created="{Date}2021-06-30T13:55:57.967Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-06-30T13:57:02.805Z"
+                    jcr:lastModified="{Date}2021-09-04T15:39:17.553Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="tdgis/components/content/text"
-                    text="&lt;p class=&quot;text-center&quot;>We have experience managing a wide variety of institutional client assets.&lt;br>&#xd;&#xa;Please contact us to learn more about how we can help&lt;/p>&#xd;&#xa;"
-                    textIsRich="true"/>
+                    text="&lt;p class=&quot;text-center&quot;>Nous avons de l'expérience dans la gestion d'une grande variété d'actifs de clients institutionnels. S'il vous plaît contactez-nous pour en savoir plus sur la façon dont nous pouvons vous aider&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="8"/>
+                    </cq:responsive>
+                </text>
                 <container
                     jcr:created="{Date}2021-06-30T14:36:28.531Z"
                     jcr:createdBy="admin"
@@ -101,10 +108,10 @@
                     <text
                         jcr:created="{Date}2021-06-30T14:36:36.947Z"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-06-30T14:49:07.628Z"
+                        jcr:lastModified="{Date}2021-09-04T15:41:57.220Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Name*"
+                        jcr:title="Nom*"
                         sling:resourceType="tdgis/components/content/form/text"
                         helpMessage="Jane Doe"
                         name="name"
@@ -125,10 +132,10 @@
                     <text_copy
                         jcr:created="{Date}2021-06-30T14:36:36.947Z"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-06-30T14:49:34.790Z"
+                        jcr:lastModified="{Date}2021-09-04T15:41:29.789Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Organization"
+                        jcr:title="Organisation"
                         sling:resourceType="tdgis/components/content/form/text"
                         helpMessage="Corporation Name"
                         name="Organization"
@@ -167,10 +174,10 @@
                     <text_copy_copy
                         jcr:created="{Date}2021-06-30T14:36:36.947Z"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-06-30T14:48:34.398Z"
+                        jcr:lastModified="{Date}2021-09-04T15:41:15.504Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Phone"
+                        jcr:title="Téléphone"
                         sling:resourceType="tdgis/components/content/form/text"
                         helpMessage="(123) 456-7891"
                         name="phone"
@@ -187,10 +194,10 @@
                     <text_copy_1575319776_1433523285
                         jcr:created="{Date}2021-06-30T14:36:36.947Z"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-06-30T14:47:06.639Z"
+                        jcr:lastModified="{Date}2021-09-04T15:40:44.312Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Existing consultant relationship (if applicable)"
+                        jcr:title="Relation de consultant existante (le cas échéant)"
                         sling:resourceType="tdgis/components/content/form/text"
                         helpMessage="XXXXXX"
                         name="Existing consultant relationship(if applicable)"
@@ -207,10 +214,10 @@
                     <text_527229779
                         jcr:created="{Date}2021-06-30T14:45:07.651Z"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-06-30T14:47:24.700Z"
+                        jcr:lastModified="{Date}2021-09-04T15:40:58.584Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="Additional information to help us better"
+                        jcr:title="Informations supplémentaires pour nous aider à mieux"
                         sling:resourceType="tdgis/components/content/form/text"
                         name="Additional information to help us better"
                         rows="4"
@@ -225,17 +232,17 @@
                     <button
                         jcr:created="{Date}2021-06-30T14:50:00.375Z"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-08-30T16:00:59.940Z"
+                        jcr:lastModified="{Date}2021-09-04T15:42:34.112Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="[Send Request]"
+                        jcr:title="[Envoyer une demande]"
                         sling:resourceType="tdgis/components/content/form/button"
                         actionType="buttonType"
                         buttonSize="td-button-large"
                         buttonType="td-button td-button-block td-cta-button td-cta-action td-button-primary"
-                        name="Send Request"
+                        name="Envoyer une demande"
                         type="submit"
-                        value="Send Request"
+                        value="Envoyer une demande"
                         window="_self">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
