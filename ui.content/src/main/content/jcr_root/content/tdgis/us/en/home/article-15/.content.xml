@@ -4,12 +4,12 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-08-30T16:09:30.095Z"
+        cq:lastModified="{Date}2021-09-08T13:38:22.962Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:description="How TD supports the transition to a low-carbon economy."
         jcr:primaryType="cq:PageContent"
-        jcr:title="A common sense approach to ESG contributes to Investment excellence"
+        jcr:title="ESG to Investment excellence"
         sling:resourceType="tdgis/components/structure/basePage">
         <root
             jcr:lastModified="{Date}2021-06-23T13:17:05.937Z"
@@ -46,9 +46,10 @@
                         <title
                             jcr:created="{Date}2021-07-04T10:43:36.959Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-07-04T10:43:52.798Z"
+                            jcr:lastModified="{Date}2021-09-08T13:35:32.242Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
+                            jcr:title="ESG contributes to Investment excellence&#xa;"
                             sling:resourceType="tdgis/components/content/title"
                             alignment="text-left"
                             type="h1"

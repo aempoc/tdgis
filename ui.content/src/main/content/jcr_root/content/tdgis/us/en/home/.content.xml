@@ -2,20 +2,21 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-09-02T13:51:09.687Z"
+        cq:lastModified="{Date}2021-09-09T16:57:01.682Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home"
         sling:resourceType="tdgis/components/structure/basePage"
         navTitle="TDGIS"
-        pageTitle="TD Global Investment Solutions - Home">
+        pageTitle="TD Global Investment Solutions - Home"
+        theme="dark">
         <root jcr:primaryType="nt:unstructured">
             <responsivegrid
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="tdgis/components/structure/responsivegrid">
                 <customteaser_225627606
-                    cq:styleIds="[1629883404866]"
+                    cq:styleIds="[1629822219036]"
                     jcr:created="{Date}2021-08-25T14:09:48.388Z"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2021-08-30T16:06:08.108Z"
@@ -113,12 +114,12 @@
                         <button
                             jcr:created="{Date}2021-07-01T07:03:33.972Z"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-09-02T12:36:18.968Z"
+                            jcr:lastModified="{Date}2021-09-04T15:48:02.124Z"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Enroll Now"
                             sling:resourceType="tdgis/components/content/button"
-                            actionType="search"
+                            actionType="buttonType"
                             buttonSize="td-button-large"
                             buttonType="td-button td-button-block td-cta-button td-cta-action td-button-primary"
                             link="/content/component-library/column-control"
@@ -133,6 +134,13 @@
                             offset="0"
                             width="12"/>
                     </cq:responsive>
+                    <par_configmng
+                        jcr:lastModified="{Date}2021-09-04T06:12:29.356Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="component-library/components/configmanager/v1/configmanager"
+                        sitename="Component Library"
+                        theme="dark"/>
                 </singleproductcontain_1990398197>
                 <rates
                     jcr:created="{Date}2021-07-12T14:33:52.423Z"
@@ -148,7 +156,7 @@
                 <list1_copy
                     jcr:created="{Date}2021-07-06T10:33:42.171Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-07-06T10:40:20.191Z"
+                    jcr:lastModified="{Date}2021-09-08T13:36:35.411Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="tdgis/components/content/list1"
@@ -163,24 +171,6 @@
                     sortOrder="asc"
                     tagsMatch="any"/>
                 <singleproductcontain/>
-                <accordion
-                    jcr:created="{Date}2021-08-24T10:51:37.826Z"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-08-24T10:51:37.826Z"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="tdgis/components/content/accordion">
-                    <item_1
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Item 1"
-                        sling:resourceType="tdgis/components/container"
-                        layout="responsiveGrid"/>
-                    <item_2
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Item 2"
-                        sling:resourceType="tdgis/components/container"
-                        layout="responsiveGrid"/>
-                </accordion>
             </responsivegrid>
         </root>
     </jcr:content>

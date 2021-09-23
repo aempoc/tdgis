@@ -509,6 +509,8 @@
                         </cq:styleGroups>
                     </policy_1629822136164>
                 </customteaser>
+                <banner jcr:primaryType="nt:unstructured"/>
+                <list1 jcr:primaryType="nt:unstructured"/>
             </content>
             <containers jcr:primaryType="nt:unstructured">
                 <singleproductcontainer jcr:primaryType="nt:unstructured">
@@ -607,4 +609,11 @@
             </responsivegrid>
         </components>
     </component-library>
+    <weretail jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <form jcr:primaryType="nt:unstructured">
+                <button jcr:primaryType="nt:unstructured"/>
+            </form>
+        </components>
+    </weretail>
 </jcr:root>

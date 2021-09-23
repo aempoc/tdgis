@@ -4,12 +4,12 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-08-30T16:09:29.150Z"
+        cq:lastModified="{Date}2021-09-08T13:37:27.659Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/tdgis/settings/wcm/templates/tgis-responsive-template"
         jcr:description="How TD supports the transition to a low-carbon economy."
         jcr:primaryType="cq:PageContent"
-        jcr:title="Low Volatility Investing: Portfolio Construction Methods and the Passive Versus Active Approach"
+        jcr:title="Low Volatility Investing"
         sling:resourceType="tdgis/components/structure/basePage">
         <root
             jcr:lastModified="{Date}2021-06-23T13:17:05.937Z"

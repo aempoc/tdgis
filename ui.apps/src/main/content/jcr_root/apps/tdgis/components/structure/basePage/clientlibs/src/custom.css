@@ -134,7 +134,7 @@ div.header {
 
 
 /* Full screen Nav bar */
-.td-nav-primary .td-dropdown-active{
+/*.td-nav-primary .td-dropdown-active{
     position: static;
     top: 0px;
     height: 100%;
@@ -150,16 +150,16 @@ div.header {
     left: calc(1268px - 100vw);
 }
 /* On screens that are 1024px or less, set the background color to blue */
-@media screen and (max-width: 64em) {
+/*@media screen and (max-width: 64em) {
     .td-nav-primary .td-dropdown-content{
         left:-15px;
     }
-}
-.td-nav-primary .td-dropdown-active:after{
+}*/
+/*.td-nav-primary .td-dropdown-active:after{
     /* width:100vw;
     height: 10px;
     left: calc(1268px - 100vw); */
-    content: none;
+ /*   content: none;
 }
 .td-nav-primary .td-quick-access .login .td-dropdown-content{
     width:215px;
@@ -193,7 +193,7 @@ div.header {
     -moz-box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.2)
 } */
-.td-nav-primary .td-dropdown-active{
+/*.td-nav-primary .td-dropdown-active{
     background-color: #FFF;
     z-index: 9999;
 }
@@ -283,7 +283,7 @@ ul.thirdmenu li>a {
 	padding-top:5px!important;
 	padding-bottom:5px!important;
 }
-
+*/
 .pad-right > div {
     padding-right: 11rem;
 }
